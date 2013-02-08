@@ -49,4 +49,4 @@ then returns as below
 `ltsv:view-file` pretty-prints specified LTSV file.
 And `ltsv:view-buffer` pretty-prints current-buffer like following screenshot.
 
-![screenshot](https://github.com/syohex/emacs-ltsv/raw/master/image/ltsv-el.png)
+![screenshot](https://github.com/syohex/emacs-ltsv/raw/master/images/ltsv-el.png)
