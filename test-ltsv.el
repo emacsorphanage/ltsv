@@ -29,6 +29,12 @@
     (should (string= (assoc-default "bar" parsed) "baz"))
     (should (string= (assoc-default "time" parsed) "20:30:58"))))
 
+(ert-deftest ltsv-parse-line-value-has-colon ()
+  "Test of ltsv:parse-line, but value has colon"
+  (let ((parsed (ltsv:parse-line "hoge:foo:bar:baz\tbar:baz")))
+    (should (string= (assoc-default "hoge" parsed) "foo:bar:baz"))
+    (should (string= (assoc-default "bar" parsed) "baz"))))
+
 (ert-deftest ltsv:parse-line-wanted ()
   "Test of ltsv:parse-line with wanted parameter"
   (let* ((wants '("hoge" "time"))
