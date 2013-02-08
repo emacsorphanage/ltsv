@@ -3,7 +3,7 @@
 ;; Copyright (C) 2013 by Syohei YOSHIDA
 
 ;; Author: Syohei YOSHIDA <syohex@gmail.com>
-;; URL: https//github.com/syohex/emacs-ltsv
+;; URL: https://github.com/syohex/emacs-ltsv
 ;; Version: 0.01
 
 ;; This program is free software; you can redistribute it and/or modify
